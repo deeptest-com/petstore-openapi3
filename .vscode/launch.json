@@ -13,7 +13,7 @@
             "port": 8080,
             "host": "localhost",
             "env": {
-                "DB_CONNECTION" : "root:admin_petstore@tcp(127.0.0.1:3306)/petstore?parseTime=True&loc=UTC"
+                "DB_CONNECTION" : "root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore?parseTime=True&loc=UTC"
             },
             "args": [],
             "cwd": "${workspaceFolder}"

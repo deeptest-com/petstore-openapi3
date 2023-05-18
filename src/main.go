@@ -31,8 +31,10 @@ func main() {
 	// Log all requests
 	e.Use(middleware.Logger())
 
+	conn := os.Getenv("DB_CONNECTION")
+
 	//Connecting To DB
-	db, err := gorm.Open(mysql.Open(os.Getenv("DB_CONNECTION")), &gorm.Config{
+	db, err := gorm.Open(mysql.Open(conn), &gorm.Config{
 		Logger: GormLogger.Default.LogMode(GormLogger.Warn),
 	})
 	if err != nil {
