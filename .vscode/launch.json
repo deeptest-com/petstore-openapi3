@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "auto",
             "program": "${workspaceFolder}/src/main.go",
-            "port": 8080,
+            "port": 8089,
             "host": "localhost",
             "env": {
                 "DB_CONNECTION" : "root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore?parseTime=True&loc=UTC"
