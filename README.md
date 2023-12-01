@@ -41,7 +41,7 @@ The intent of this sample project is to demonstrate the usage of various tools t
 - API End-points
 
   ```
-  http://localhost:8080/docs/
+  http://localhost:8089/docs/
   ```
 
 - Running Unit Tests

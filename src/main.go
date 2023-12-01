@@ -55,7 +55,7 @@ func main() {
 
 	// Start server
 	go func() {
-		if err := e.Start(":8089"); err != nil && err != http.ErrServerClosed {
+		if err := e.Start(":9010"); err != nil && err != http.ErrServerClosed {
 			e.Logger.Fatal("[main.main]: shutting down the server")
 		}
 	}()
