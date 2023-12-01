@@ -1,4 +1,4 @@
-export DB_CONNECTION="root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore"
+export DB_CONNECTION=root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore
 
 start_service:
 	go run src/main.go
