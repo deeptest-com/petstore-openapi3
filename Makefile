@@ -1,4 +1,4 @@
-export DB_CONNECTION="root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore?charset=utf8mb4&parseTime=True&loc=Local"
+export DB_CONNECTION="DB_CONNECTION=root:P2ssw0rd@tcp(127.0.0.1:3306)/petstore?parseTime=True&loc=UTC"
 
 start_service:
 	go run src/main.go
